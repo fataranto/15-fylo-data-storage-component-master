@@ -1,57 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Fylo data storage component</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./main.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+<!--   <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    } 
+  </style> -->
+  
 </head>
+
 <body>
 
 
 
 
 
-  <div class="main_comp">
+  <div class="main">
+    <div class="main_comp">
       <div class="main_comp--actions">
-          <div class="main_comp--actions--logo">
-            <img src="./images/logo.svg" alt="Fylo" height="35px">
-          </div>
-          <div class="main_comp--actions--icons">
-            <ul class="main_comp--actions--icons--list">
-              <li class="main_comp--actions--icons--list--item"> <img src="./images/icon-document.svg" alt="create document"></li>
-              <li class="main_comp--actions--icons--list--item"> <img src="./images/icon-folder.svg" alt="create folder"></li>
-              <li class="main_comp--actions--icons--list--item"> <img src="./images/icon-upload.svg" alt="upload"></li>
-            </ul>
-          </div>
+        <div class="main_comp--actions--logo">
+          <img src="./images/logo.svg" alt="Fylo">
+        </div>
+        <div class="main_comp--actions--icons">
+          <ul class="main_comp--actions--icons--list">
+            <li class="main_comp--actions--icons--list--item"> <img src="./images/icon-document.svg"
+                alt="create document"></li>
+            <li class="main_comp--actions--icons--list--item"> <img src="./images/icon-folder.svg" alt="create folder">
+            </li>
+            <li class="main_comp--actions--icons--list--item"> <img src="./images/icon-upload.svg" alt="upload"></li>
+          </ul>
+        </div>
       </div>
       <div class="main_comp--info">
-
- <div class="main_comp--info--text">You’ve used <strong>815 GB</strong> of your storage</div>
-          <div class="main_comp--info--bar">
-            <div class="main_comp--info--bar--used"></div>
+        <p class="main_comp--info--text">You’ve used <strong>815 GB</strong> of your storage</p>
+        <div class="main_comp--info--bar">
+          <div class="main_comp--info--bar--used">
+            <div class="main_comp--info--bar--used--point">
+            </div>
           </div>
+        </div>
+        <div class="main_comp--info--labels">
+          <p><strong>0 GB</strong></p>
+          <p><strong>1000 GB</strong></p>
+        </div>
       </div>
-
+    </div>
+    <div class="gigasleft"><p><span>185</span>gb left</p></div>
   </div>
 
-<!--   
+  <!--   
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
 </body>
+
 </html>
