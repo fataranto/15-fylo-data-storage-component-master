@@ -197,6 +197,21 @@ body {
         left: 255px;       
     }
 
+ /*    .gigasleft--label {
+        flex-grow: 2;
+    } */
+
+    #triangle {
+        width: 0;
+        height: 0;
+        border-top: 40px solid white;
+        border-left: 40px solid transparent;
+        position: relative;
+        top: 45px;
+        left: 13px;
+        margin-left: -30px;
+      } 
+
     .main_comp--actions {
         width: 65%;
     }
