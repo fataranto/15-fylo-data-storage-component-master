@@ -191,7 +191,7 @@ body {
     }
 
     .gigasleft {
-        justify-content: flex-end
+        justify-content: flex-end;
         position: relative;
         top: -185px;
         left: 255px;       
@@ -208,7 +208,7 @@ body {
         border-left: 40px solid transparent;
         position: relative;
         top: 45px;
-        left: 13px;
+        /* left: 13px; */
         margin-left: -30px;
       } 
 
